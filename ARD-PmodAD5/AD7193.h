@@ -150,12 +150,12 @@
 
 /* Configuration Register: AD7193_CONF_GAIN(x) options */
 //                                             ADC Input Range (5 V Reference)
-#define AD7193_CONF_GAIN_1		0 // Gain 1    +-2.5 V
-#define AD7193_CONF_GAIN_8		3 // Gain 8    +-312.5 mV
-#define AD7193_CONF_GAIN_16		4 // Gain 16   +-156.2 mV
-#define AD7193_CONF_GAIN_32		5 // Gain 32   +-78.125 mV
-#define AD7193_CONF_GAIN_64		6 // Gain 64   +-39.06 mV
-#define AD7193_CONF_GAIN_128	7 // Gain 128  +-19.53 mV
+#define AD7193_CONF_GAIN_1    0 // Gain 1    +-2.5 V
+#define AD7193_CONF_GAIN_8    3 // Gain 8    +-312.5 mV
+#define AD7193_CONF_GAIN_16   4 // Gain 16   +-156.2 mV
+#define AD7193_CONF_GAIN_32   5 // Gain 32   +-78.125 mV
+#define AD7193_CONF_GAIN_64   6 // Gain 64   +-39.06 mV
+#define AD7193_CONF_GAIN_128  7 // Gain 128  +-19.53 mV
 
 /* ID Register Bit Designations (AD7193_REG_ID) */
 #define ID_AD7193               0x2
